@@ -1,0 +1,70 @@
+---
+OpNewsCreate:
+  dec: "运营新闻创建接口功能"
+  parameters:
+    -
+      url: /op_setting/create_to_audit?_tass_debug=1 # 运营新闻内容01
+      data:
+        -
+          "banner_times": 0
+          "channel_id": 902
+          "display_setting": {
+            "title": "testdata-内容库-新闻-单图-无角标",
+            "style_type": 1,
+            "op_mark": null,
+            "thumbnails": [
+            {
+              "url": "https://pre-xxqg-l3-prod-img.oss-cn-north-2-gov-1.aliyuncs.com/op_card/20190505/20241203331387574_224x148.jpg",
+              "title": null,
+              "desc": null,
+              "type": "jpg",
+              "width": 224,
+              "height": 148,
+              "verify_hash": "2530149602446896242",
+              "image_size": 67139,
+              "related_id": 0,
+              "item_title": null,
+              "item_url": null
+            }
+            ]
+          }
+          "end_time": 0
+          "is_banner": 0
+          "is_publish": 0
+          "item_id": "11392166201220976597"
+          "start_time": 0
+          "clone_to_channel_ids": [ ]
+          "create_time": 1554279393848
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                    Chrome/67.0.3396.99 Safari/537.36"
+,
+        "Content-Type": "application/json"
+      }
+​
+    -
+      url: /op_setting/create_to_audit?_tass_debug=1 # 运营新闻内容02
+      data:
+        -
+          "banner_times": 0
+          "channel_id": 902
+          "display_setting": {
+            "title": "testdata-内容库-新闻-无图-无角标",
+            "style_type": 4,
+            "thumbnails": [
+​
+            ]
+          }
+          "end_time": 0
+          "is_banner": 0
+          "is_publish": 0
+          "item_id": "6286477357430853851"
+          "start_time": 0
+          "clone_to_channel_ids": [ ]
+          "create_time": 1554257280443
+      header: {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko)\
+                                        Chrome/67.0.3396.99 Safari/537.36"
+,
+        "Content-Type": "application/json"
+      }
